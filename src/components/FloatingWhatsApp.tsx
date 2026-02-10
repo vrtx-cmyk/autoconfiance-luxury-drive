@@ -6,8 +6,8 @@ const FloatingWhatsApp = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const contacts = [
-    { name: "Service Commercial 1", number: "+212661299420" },
-    { name: "Service Commercial 2", number: "+212662021536" },
+    { name: "Commercial 1", number: "+212 662-021536" },
+    { name: "Commercial 2", number: "+212 661-299420" },
   ];
 
   const handleWhatsAppClick = (number: string) => {
@@ -22,7 +22,7 @@ const FloatingWhatsApp = () => {
         <div className="bg-card border border-border/50 shadow-card-hover rounded-2xl p-4 w-72 mb-2 animate-fade-in">
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-serif font-bold text-foreground">Contactez-nous</h3>
-            <button 
+            <button
               onClick={() => setIsOpen(false)}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >

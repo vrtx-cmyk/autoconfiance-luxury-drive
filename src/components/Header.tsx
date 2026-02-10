@@ -111,9 +111,9 @@ const Header = () => {
 
           {/* Contact Info & CTA */}
           <div className="hidden xl:flex items-center gap-4">
-            <a href="https://wa.me/212661299420" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground text-sm hover:text-gold transition-colors">
+            <a href="https://wa.me/212662021536" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground text-sm hover:text-gold transition-colors">
               <Phone className="w-4 h-4 text-gold" />
-              <span>+212 661-299420</span>
+              <span>+212 662-021536 (Commercial 1)</span>
             </a>
           </div>
 
@@ -159,10 +159,10 @@ const Header = () => {
                   )}
                 </div>
               ))}
-              <div className="flex items-center gap-2 text-muted-foreground text-sm py-3 px-4">
+              <a href="https://wa.me/212662021536" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground text-sm py-3 px-4 hover:text-gold transition-colors">
                 <Phone className="w-4 h-4 text-gold" />
-                <span>+212 661-299420</span>
-              </div>
+                <span>+212 662-021536 (Commercial 1)</span>
+              </a>
             </nav>
           </div>
         )}

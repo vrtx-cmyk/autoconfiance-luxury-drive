@@ -7,14 +7,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Téléphone & WhatsApp",
-      content: "+212 661-299420",
-      subtext: "Service Commercial 1"
+      content: "+212 662-021536",
+      subtext: "Commercial 1"
     },
     {
       icon: Phone,
       title: "Téléphone & WhatsApp",
-      content: "+212 662-021536",
-      subtext: "Service Commercial 2"
+      content: "+212 661-299420",
+      subtext: "Commercial 2"
     },
     {
       icon: MapPin,
@@ -97,19 +97,19 @@ const Contact = () => {
                 variant="gold"
                 size="lg"
                 className="w-full gap-2"
-                onClick={() => handleWhatsAppClick("+212661299420")}
+                onClick={() => handleWhatsAppClick("+212662021536")}
               >
                 <Send className="w-5 h-5" />
-                Service Commercial 1 (+212 661-299420)
+                Commercial 1 (+212 662-021536)
               </Button>
               <Button
                 variant="outline"
                 size="lg"
                 className="w-full gap-2 border-gold text-gold hover:bg-gold hover:text-white"
-                onClick={() => handleWhatsAppClick("+212662021536")}
+                onClick={() => handleWhatsAppClick("+212661299420")}
               >
                 <Send className="w-5 h-5" />
-                Service Commercial 2 (+212 662-021536)
+                Commercial 2 (+212 661-299420)
               </Button>
             </div>
           </div>
