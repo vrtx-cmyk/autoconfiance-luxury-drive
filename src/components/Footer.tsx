@@ -110,7 +110,7 @@ const Footer = () => {
                 <div>
                   <p className="text-cream">+212 662-021536 (Commercial 1)</p>
                   <p className="text-cream">+212 661-299420 (Commercial 2)</p>
-                  <p className="text-cream/50 text-sm">Lun-Sam: 9h-19h</p>
+                  <p className="text-cream/50 text-sm">Lun-Sam: 9h-20h</p>
                 </div>
               </li>
 

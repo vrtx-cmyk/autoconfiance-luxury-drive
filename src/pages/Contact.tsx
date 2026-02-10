@@ -27,7 +27,7 @@ const ContactPage = () => {
     {
       icon: Clock,
       title: "Horaires",
-      content: "Lun-Sam: 9h-19h",
+      content: "Lun-Sam: 9h-20h",
       subtext: "Dimanche sur RDV"
     }
   ];
